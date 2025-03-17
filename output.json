@@ -1,0 +1,38 @@
+[
+    {
+        "question": "How old are you?",
+        "answer": "I am 29 years old."
+    },
+    {
+        "question": "What is your highest level of education?",
+        "answer": "Master’s in Data Science and Artificial Intelligence"
+    },
+    {
+        "question": "What major or field of study did you pursue during your education?",
+        "answer": "Master’s in Data Science and Artificial Intelligence"
+    },
+    {
+        "question": "How many years of work experience do you have?",
+        "answer": "I have over two years of work experience."
+    },
+    {
+        "question": "What type of work or industry have you been involved in?",
+        "answer": "Software Engineering"
+    },
+    {
+        "question": "Can you describe your current role or job responsibilities?",
+        "answer": "I am a Software Engineer at HotelKey, a US-based company, where I work remotely, contributing to a highly dynamic and innovative environment. My work primarily revolves around developing and maintaining RESTful APIs, cloud-based architectures, and scalable software solutions. I specialize in using Java, Python, C, and C++, along with a range of Amazon Web Services (AWS) tools such as CloudWatch, S3, Athena, DynamoDB, Lambda, SNS, and SQS. My responsibilities include working on microservices, database shaping industries, and making life more efficient."
+    },
+    {
+        "question": "What are your core beliefs regarding the role of technology in shaping society?",
+        "answer": "As an AI bot, I don't have personal thoughts or opinions, but I can provide you with information and insights based on the text you provide. However, I can only provide information and insights based on the text you provide. If you have any specific questions or topics you would like me to cover, please let me know and I'll do my best to assist you."
+    },
+    {
+        "question": "How do you think cultural values should influence technological advancements?",
+        "answer": "As an AI bot, I don't have personal thoughts or opinions, but I can provide you with information and insights based on the text you provide. However, I can only provide information and insights based on the text you provide. If you have any specific questions or topics you would like me to cover, please let me know and I'll do my best to assist you."
+    },
+    {
+        "question": "As a master’s student, what is the most challenging aspect of your studies so far?",
+        "answer": "The depth of mathematical and statistical foundations required for AI and machine learning."
+    }
+]
