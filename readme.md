@@ -1,6 +1,7 @@
-Sure! Here’s the **copy-paste-ready** version of your README file in plain text:  
+Yes! You can directly display the screenshot and the JSON file in your README using Markdown syntax. Here’s how you can do it:
 
-```
+---
+
 # RAG-AI Chatbot: Intelligent Retrieval-Augmented Generation for Q&A  
 
 ## Overview  
@@ -34,9 +35,9 @@ For instance, if a user asks:
 💬 The chatbot will extract relevant details from provided documents and respond accordingly, along with references to the retrieved sources.  
 
 ### Website Screenshot  
-Below is a preview of the chatbot interface:  
+Here’s how the chatbot interface looks:  
 
-![Chatbot Website](website.png)  
+![Website Screenshot](website.png)  
 
 ## Output Example  
 The chatbot generates responses based on retrieved data. Here’s a sample JSON output:  
@@ -51,6 +52,25 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
   "response": "I have worked on multiple AI projects focusing on NLP and deep learning. My experience includes developing AI-powered chatbots and RAG-based applications."
 }
 ```
+
+📄 **[View Full JSON Output](output.json)**  
+
+Alternatively, you can also embed the JSON output directly in the README like this:  
+
+<details>
+  <summary>Click to view JSON output</summary>
+
+  ```json
+  {
+    "query": "What is your experience in AI?",
+    "retrieved_documents": [
+      "Document 1: AI Research Paper.pdf",
+      "Document 2: Resume.pdf"
+    ],
+    "response": "I have worked on multiple AI projects focusing on NLP and deep learning. My experience includes developing AI-powered chatbots and RAG-based applications."
+  }
+  ```
+</details>  
 
 ## How to Use  
 1. Clone the repository:  
@@ -74,11 +94,5 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
 - Introduce **multi-modal capabilities** for image-based document retrieval.  
 
 ---
-```
 
-### Instructions:  
-✅ **Directly copy and paste** this into your `README.md` file.  
-✅ Ensure `website.png` is **in the same directory** as the README for the image to display.  
-✅ The JSON block is already formatted correctly for GitHub.  
-
-Let me know if you need any changes! 🚀
+This version **displays the screenshot** and **includes the JSON output inline** while still linking to it. Let me know if you need any more refinements! 🚀
