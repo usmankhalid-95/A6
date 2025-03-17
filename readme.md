@@ -1,7 +1,3 @@
-Yes! You can directly display the screenshot and the JSON file in your README using Markdown syntax. Here’s how you can do it:
-
----
-
 # RAG-AI Chatbot: Intelligent Retrieval-Augmented Generation for Q&A  
 
 ## Overview  
@@ -57,9 +53,28 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
 Clone the repository:  
    ```bash
    git clone https://github.com/usmankhalid-95/A6.git
-   cd your-repo-name
    ```  
 ## Future Enhancements  
 - Implement **real-time document ingestion** for dynamic updates.  
 - Optimize retrieval with **hybrid search (dense + keyword-based retrieval).**  
 - Introduce **multi-modal capabilities** for image-based document retrieval.  
+
+
+### **Note on System Limitations**  
+⚠️ **Important:** While running the chatbot, I encountered system limitations due to memory constraints on my **M1 MacBook**. Specifically, when attempting to answer the question:  
+
+**"What specific research interests or academic goals do you hope to achieve during your time as a master’s student?"**  
+
+My system **crashed after approximately 244 minutes** of processing due to an **out-of-memory (OOM) error**. The error message displayed was:  
+
+```
+RuntimeError: MPS backend out of memory (MPS allocated: 9.04 GB, other allocations: 3.92 MB, max allowed: 9.07 GB). Tried to allocate 68.66 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+```
+
+This happened consistently after several attempts, and the issue was likely caused by **high computational demands** exceeding the available memory on my machine.
+
+#### **Potential Solutions (For Future Improvement)**  
+- **Optimize model parameters** to reduce memory consumption.  
+- **Use a cloud-based GPU** for better resource allocation.  
+- **Experiment with model quantization** to decrease memory load.  
+- **Adjust the MPS (Metal Performance Shaders) memory allocation** by tweaking `PYTORCH_MPS_HIGH_WATERMARK_RATIO` for better memory management.  
