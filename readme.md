@@ -1,11 +1,6 @@
-Yes! You can **display the screenshot and JSON content directly** in the README file using Markdown. Here's how:  
+Sure! Here’s the **copy-paste-ready** version of your README file in plain text:  
 
-1. **Display the screenshot** using the `![Alt Text](file_path)` syntax.  
-2. **Embed the JSON file** using triple backticks (```json) to format it properly.  
-
-### Updated README  
-
-```markdown
+```
 # RAG-AI Chatbot: Intelligent Retrieval-Augmented Generation for Q&A  
 
 ## Overview  
@@ -60,7 +55,7 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
 ## How to Use  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/usmankhalid-95/A6.git  
+   git clone https://github.com/your-repo-name.git  
    cd your-repo-name
    ```  
 2. Install dependencies:  
@@ -77,3 +72,13 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
 - Implement **real-time document ingestion** for dynamic updates.  
 - Optimize retrieval with **hybrid search (dense + keyword-based retrieval).**  
 - Introduce **multi-modal capabilities** for image-based document retrieval.  
+
+---
+```
+
+### Instructions:  
+✅ **Directly copy and paste** this into your `README.md` file.  
+✅ Ensure `website.png` is **in the same directory** as the README for the image to display.  
+✅ The JSON block is already formatted correctly for GitHub.  
+
+Let me know if you need any changes! 🚀
