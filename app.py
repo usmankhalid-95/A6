@@ -25,8 +25,7 @@ LANGUAGE_MODEL_ID = 'models/fastchat-t5-3b-v1.0'
 
 # Define template for the prompt
 chat_prompt = """
-    Hello, I am RAGBot, a conversational AI designed to assist with questions using document-based information.
-    I strive to ensure answers are accurate and well-cited.
+    I'm your friendly AI bot I will try to answer your questions especially about Usman
     Context: {context}
     Question: {question}
     Answer:
