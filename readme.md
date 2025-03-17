@@ -33,7 +33,10 @@ For instance, if a user asks:
 ### Website Screenshot  
 Here’s how the chatbot interface looks:  
 
-![Website Screenshot](website.png)  
+#### Screenshot 1
+![Website Screenshot 1](website1.png)  
+#### Screenshot 2
+![Website Screenshot 2](website2.png)  
 
 ## Output Example  
 The chatbot generates responses based on retrieved data. Here’s a sample JSON output:  
@@ -59,6 +62,8 @@ Clone the repository:
 - Optimize retrieval with **hybrid search (dense + keyword-based retrieval).**  
 - Introduce **multi-modal capabilities** for image-based document retrieval.  
 
+## Data Source
+All the data used by the chatbot is fetched from the usman_portfolio.pdf file. This file contains the necessary information to answer the user’s queries and provide accurate, relevant responses regarding Usman.
 
 ### **Note on System Limitations**  
 ⚠️ **Important:** While running the chatbot, I encountered system limitations due to memory constraints on my **M1 MacBook**. Specifically, when attempting to answer the question:  
