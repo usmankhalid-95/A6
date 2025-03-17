@@ -1,3 +1,11 @@
+Yes! You can **display the screenshot and JSON content directly** in the README file using Markdown. Here's how:  
+
+1. **Display the screenshot** using the `![Alt Text](file_path)` syntax.  
+2. **Embed the JSON file** using triple backticks (```json) to format it properly.  
+
+### Updated README  
+
+```markdown
 # RAG-AI Chatbot: Intelligent Retrieval-Augmented Generation for Q&A  
 
 ## Overview  
@@ -31,8 +39,9 @@ For instance, if a user asks:
 💬 The chatbot will extract relevant details from provided documents and respond accordingly, along with references to the retrieved sources.  
 
 ### Website Screenshot  
-Click below to view the chatbot in action:  
-📷 **[Website Screenshot](website.png)**  
+Below is a preview of the chatbot interface:  
+
+![Chatbot Website](website.png)  
 
 ## Output Example  
 The chatbot generates responses based on retrieved data. Here’s a sample JSON output:  
@@ -47,12 +56,11 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
   "response": "I have worked on multiple AI projects focusing on NLP and deep learning. My experience includes developing AI-powered chatbots and RAG-based applications."
 }
 ```
-📄 **[View Full JSON Output](output.json)**  
 
 ## How to Use  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo-name.git  
+   git clone https://github.com/usmankhalid-95/A6.git  
    cd your-repo-name
    ```  
 2. Install dependencies:  
