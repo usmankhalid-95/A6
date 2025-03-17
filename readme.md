@@ -46,53 +46,20 @@ The chatbot generates responses based on retrieved data. Here’s a sample JSON 
 {
   "query": "What is your experience in AI?",
   "retrieved_documents": [
-    "Document 1: AI Research Paper.pdf",
-    "Document 2: Resume.pdf"
+    "Document 2: usman_portfolio.pdf"
   ],
   "response": "I have worked on multiple AI projects focusing on NLP and deep learning. My experience includes developing AI-powered chatbots and RAG-based applications."
 }
 ```
 
-📄 **[View Full JSON Output](output.json)**  
+### 📄 [View Full JSON Output](output.json)
 
-Alternatively, you can also embed the JSON output directly in the README like this:  
-
-<details>
-  <summary>Click to view JSON output</summary>
-
-  ```json
-  {
-    "query": "What is your experience in AI?",
-    "retrieved_documents": [
-      "Document 1: AI Research Paper.pdf",
-      "Document 2: Resume.pdf"
-    ],
-    "response": "I have worked on multiple AI projects focusing on NLP and deep learning. My experience includes developing AI-powered chatbots and RAG-based applications."
-  }
-  ```
-</details>  
-
-## How to Use  
-1. Clone the repository:  
+Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo-name.git  
+   git clone https://github.com/usmankhalid-95/A6.git
    cd your-repo-name
    ```  
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt  
-   ```  
-3. Run the chatbot:  
-   ```bash
-   python main.py  
-   ```  
-4. Interact with the chatbot through the web UI or terminal interface.  
-
 ## Future Enhancements  
 - Implement **real-time document ingestion** for dynamic updates.  
 - Optimize retrieval with **hybrid search (dense + keyword-based retrieval).**  
 - Introduce **multi-modal capabilities** for image-based document retrieval.  
-
----
-
-This version **displays the screenshot** and **includes the JSON output inline** while still linking to it. Let me know if you need any more refinements! 🚀
